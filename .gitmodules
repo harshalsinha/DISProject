@@ -1,0 +1,3 @@
+[submodule "Adapters/Prisma/Adapters/Prisma/Prisma_Postgres/next-auth-example"]
+	path = Adapters/Prisma/Adapters/Prisma/Prisma_Postgres/next-auth-example
+	url = https://github.com/harshalsinha/DISProject.git
