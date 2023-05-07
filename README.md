@@ -63,7 +63,7 @@ Web App 3: Prisma Adapter for MongoDB
     ./install.sh
 7. At this point, OpenTelemetry should be running and will be available at http://localhost:3301/ .
 
-Web App 3: Custom Adapter for MongoDB
+Web App 4: Custom Adapter for MongoDB
 1. Go into the Adapters/MongoDb_Adapter/next-auth-example.
 2. In the terminal, run the command 'npm install' . This installs all the required dependencies.
 3. Create an env file and mention the following variables to configure Prisma and the database:
