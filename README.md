@@ -78,3 +78,5 @@ Web App 3: Custom Adapter for MongoDB
     cd signoz/deploy/
     ./install.sh
 7. At this point, OpenTelemetry should be running and will be available at http://localhost:3301/ .
+
+PS: This entire process of cloning and evaluation will take around 45 minutes - 1 hr. Also, please note that since all the evaluations have been carried out on my local machine the results that might show up during your run might be a little different(as it is not hardware agnostic) if we talk about latency numbers but the overall conclusion that we have drawn should be consistent.
