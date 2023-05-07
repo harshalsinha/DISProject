@@ -5,7 +5,7 @@ Overview: This repository contains four NextJS web applications that have authen
 Installation: Follow these steps after cloning the repo.
 
 Web App 1: Custom Adapter for Postgresql
-1. Go into the Adapters/Custom_Postgresql directory. 
+1. Go into the Adapters/Custom_Postgresql/next-auth-example directory. 
 2. In the terminal, run the command 'npm install' . This installs all the required dependencies.
 3. Create an env file and mention the following variables to configure Postgresql database 
     
@@ -32,7 +32,7 @@ Note: You will need to create a database named nextauth which has the schema def
 Note: The configurations required to measure the performance of our NextJS application is already present. So, once you open the url: http://localhost:3301/ to view OpenTelemetry's dashboard you should be able to see a service named: "Custom-Postgresql"
 
 Web App 2: Prisma Adapter for Postgresql
-1. Go into the Adapters/Prisma_Postgres directory.
+1. Go into the Adapters/Prisma_Postgres/next-auth-example directory.
 2. In the terminal, run the command 'npm install' . This installs all the required dependencies.
 3. Create an env file and mention the following variables to configure Prisma and the database:
     DATABASE_URL=postgresql://postgres:<Password_for_Postgres>@localhost:5432/nextauth
@@ -48,7 +48,7 @@ Web App 2: Prisma Adapter for Postgresql
 7. At this point, OpenTelemetry should be running and will be available at http://localhost:3301/ .
 
 Web App 3: Prisma Adapter for MongoDB
-1. Go into the Adapters/Prisma_Mongo directory.
+1. Go into the Adapters/Prisma_Mongo directory/next-auth-example.
 2. In the terminal, run the command 'npm install' . This installs all the required dependencies.
 3. Create an env file and mention the following variables to configure Prisma and the database:
     DATABASE_URL=mongodb+srv://<Mongo_User>:<Your_Password><Your_Mongo_Cluster_IP>
@@ -64,7 +64,7 @@ Web App 3: Prisma Adapter for MongoDB
 7. At this point, OpenTelemetry should be running and will be available at http://localhost:3301/ .
 
 Web App 3: Custom Adapter for MongoDB
-1. Go into the Adapters/MongoDb_Adapter.
+1. Go into the Adapters/MongoDb_Adapter/next-auth-example.
 2. In the terminal, run the command 'npm install' . This installs all the required dependencies.
 3. Create an env file and mention the following variables to configure Prisma and the database:
     MONGODB_URI=mongodb+srv://<Mongo_User>:<Your_Password><Your_Mongo_Cluster_IP>
